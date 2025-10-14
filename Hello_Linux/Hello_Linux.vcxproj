@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="threads\detached_attrib.c" />
     <ClCompile Include="threads\simple_thread.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

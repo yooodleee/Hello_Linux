@@ -18,5 +18,8 @@
     <ClCompile Include="threads\simple_thread.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="threads\detached_attrib.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
