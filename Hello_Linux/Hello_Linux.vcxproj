@@ -22,6 +22,11 @@
     <ClCompile Include="threads\detached_attrib.c" />
     <ClCompile Include="threads\simple_thread.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="threads\error_functions.h" />
+    <ClInclude Include="threads\get_num.h" />
+    <ClInclude Include="threads\tlpi_hdr.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
