@@ -21,8 +21,11 @@
   <ItemGroup>
     <ClCompile Include="threads\detached_attrib.c" />
     <ClCompile Include="threads\simple_thread.c" />
+    <ClCompile Include="threads\thread_incr.c" />
+    <ClCompile Include="threads\thread_incr_mutex.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\Windows\System32\include\pthread.h" />
     <ClInclude Include="threads\error_functions.h" />
     <ClInclude Include="threads\get_num.h" />
     <ClInclude Include="threads\tlpi_hdr.h" />

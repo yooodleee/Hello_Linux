@@ -21,6 +21,12 @@
     <ClCompile Include="threads\detached_attrib.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="threads\thread_incr.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="threads\thread_incr_mutex.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="threads\tlpi_hdr.h">
@@ -30,6 +36,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="threads\error_functions.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Windows\System32\include\pthread.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
