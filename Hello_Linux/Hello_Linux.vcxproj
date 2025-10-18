@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="threads\detached_attrib.c" />
+    <ClCompile Include="threads\prod_condvar.c" />
     <ClCompile Include="threads\simple_thread.c" />
     <ClCompile Include="threads\thread_incr.c" />
     <ClCompile Include="threads\thread_incr_mutex.c" />
