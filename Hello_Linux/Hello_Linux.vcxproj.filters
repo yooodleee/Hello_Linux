@@ -41,5 +41,8 @@
     <ClInclude Include="..\..\..\..\..\..\..\Windows\System32\include\pthread.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="threads\prod_no_condvar.c">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
