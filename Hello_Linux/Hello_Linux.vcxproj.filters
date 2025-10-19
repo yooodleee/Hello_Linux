@@ -30,6 +30,9 @@
     <ClCompile Include="threads\prod_condvar.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="threads\thread_multijoin.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="threads\tlpi_hdr.h">

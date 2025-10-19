@@ -24,6 +24,7 @@
     <ClCompile Include="threads\simple_thread.c" />
     <ClCompile Include="threads\thread_incr.c" />
     <ClCompile Include="threads\thread_incr_mutex.c" />
+    <ClCompile Include="threads\thread_multijoin.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\..\Windows\System32\include\pthread.h" />
