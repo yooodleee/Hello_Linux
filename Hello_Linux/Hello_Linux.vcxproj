@@ -22,6 +22,10 @@
     <ClCompile Include="threads\detached_attrib.c" />
     <ClCompile Include="threads\prod_condvar.c" />
     <ClCompile Include="threads\simple_thread.c" />
+    <ClCompile Include="threads\strerror.c" />
+    <ClCompile Include="threads\strerror_test.c" />
+    <ClCompile Include="threads\strerror_tls.c" />
+    <ClCompile Include="threads\strerror_tsd.c" />
     <ClCompile Include="threads\thread_incr.c" />
     <ClCompile Include="threads\thread_incr_mutex.c" />
     <ClCompile Include="threads\thread_multijoin.c" />
