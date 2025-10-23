@@ -27,6 +27,7 @@
     <ClCompile Include="threads\strerror_tls.c" />
     <ClCompile Include="threads\strerror_tsd.c" />
     <ClCompile Include="threads\thread_cancel.c" />
+    <ClCompile Include="threads\thread_cleanup.c" />
     <ClCompile Include="threads\thread_incr.c" />
     <ClCompile Include="threads\thread_incr_mutex.c" />
     <ClCompile Include="threads\thread_multijoin.c" />

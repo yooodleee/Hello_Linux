@@ -48,6 +48,9 @@
     <ClCompile Include="threads\thread_cancel.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="threads\thread_cleanup.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="threads\tlpi_hdr.h">
