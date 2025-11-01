@@ -19,25 +19,57 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="threads\detached_attrib.c" />
-    <ClCompile Include="threads\prod_condvar.c" />
-    <ClCompile Include="threads\simple_thread.c" />
-    <ClCompile Include="threads\strerror.c" />
-    <ClCompile Include="threads\strerror_test.c" />
-    <ClCompile Include="threads\strerror_tls.c" />
-    <ClCompile Include="threads\strerror_tsd.c" />
-    <ClCompile Include="threads\thread_cancel.c" />
-    <ClCompile Include="threads\thread_cleanup.c" />
-    <ClCompile Include="threads\thread_incr.c" />
-    <ClCompile Include="threads\thread_incr_mutex.c" />
-    <ClCompile Include="threads\thread_multijoin.c" />
+    <ClCompile Include="threads\detached_attrib.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="threads\prod_condvar.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="threads\simple_thread.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="threads\strerror.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="threads\strerror_test.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="threads\strerror_tls.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="threads\strerror_tsd.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="threads\thread_cancel.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="threads\thread_cleanup.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="threads\thread_incr.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="threads\thread_incr_mutex.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="threads\thread_multijoin.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\..\Windows\System32\include\pthread.h" />
-    <ClInclude Include="threads\prod_no_condvar.c" />
-    <ClInclude Include="threads\error_functions.h" />
-    <ClInclude Include="threads\get_num.h" />
-    <ClInclude Include="threads\tlpi_hdr.h" />
+    <ClInclude Include="threads\prod_no_condvar.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="threads\error_functions.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="threads\get_num.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="threads\tlpi_hdr.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -92,7 +124,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Windows\System32\include;C:\Windows\System32\dll;C:\Windows\System32\lib;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\LEGION\Downloads\pthreads-w32-2-9-1-release\Pre-built.2\include;C:\Users\LEGION\Downloads\pthreads-w32-2-9-1-release\Pre-built.2\lib\x64;C:\Users\LEGION\Downloads\pthreads-w32-2-9-1-release\Pre-built.2\dll\x64;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -126,7 +158,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Windows\System32\lib;C:\Windows\System32\dll;C:\Windows\System32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\LEGION\Downloads\pthreads-w32-2-9-1-release\Pre-built.2\lib\x64;C:\Users\LEGION\Downloads\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
