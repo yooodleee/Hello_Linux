@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="pipes\curr_time.c" />
+    <ClCompile Include="pipes\pipe_sync.c" />
     <ClCompile Include="pipes\simple_pipe.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -64,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\..\Windows\System32\include\pthread.h" />
+    <ClInclude Include="pipes\curr_time.h" />
     <ClInclude Include="pipes\error_functions.h" />
     <ClInclude Include="pipes\get_num.h" />
     <ClInclude Include="pipes\tlpi_hdr.h" />
