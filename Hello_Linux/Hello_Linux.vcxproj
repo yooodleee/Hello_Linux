@@ -22,6 +22,9 @@
     <ClCompile Include="pipes\simple_pipe.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="pipes\simple_pipe2.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="threads\detached_attrib.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -61,6 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\..\Windows\System32\include\pthread.h" />
+    <ClInclude Include="pipes\error_functions.h" />
+    <ClInclude Include="pipes\get_num.h" />
+    <ClInclude Include="pipes\tlpi_hdr.h" />
     <ClInclude Include="threads\prod_no_condvar.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
