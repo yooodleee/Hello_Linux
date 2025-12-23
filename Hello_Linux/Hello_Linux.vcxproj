@@ -20,6 +20,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pipes\curr_time.c" />
+    <ClCompile Include="pipes\pipe_ls_wc.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="pipes\pipe_sync.c" />
     <ClCompile Include="pipes\simple_pipe.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

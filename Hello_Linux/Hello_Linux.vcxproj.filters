@@ -63,6 +63,9 @@
     <ClCompile Include="pipes\pipe_sync.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pipes\pipe_ls_wc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="threads\tlpi_hdr.h">
