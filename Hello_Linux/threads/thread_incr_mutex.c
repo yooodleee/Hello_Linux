@@ -25,7 +25,7 @@ static void *threadFunc(void *arg) {			/* Loop 'arg times incrementing 'glob' */
 
 		s = pthread_mutex_unlock(&mtx);
 		if (s != 0)
-			errExit(s, "pthread_mutex_unlock");
+			errExitEN(s, "pthread_mutex_unlock");
 	}
 
 	return NULL;

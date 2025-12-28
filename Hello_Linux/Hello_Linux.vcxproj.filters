@@ -66,6 +66,12 @@
     <ClCompile Include="pipes\pipe_ls_wc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pipes\popen_glob.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pipes\print_wait_status.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="threads\tlpi_hdr.h">
@@ -93,6 +99,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="pipes\curr_time.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pipes\print_wait_status.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
